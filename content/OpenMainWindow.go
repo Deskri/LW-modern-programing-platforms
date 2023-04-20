@@ -8,7 +8,6 @@ func OpenMainWindow(application fyne.App) {
 	window := application.NewWindow("СПП") // создание окна и присваивание тайтла
 	window.Resize(fyne.NewSize(800, 500)) // параметры окна размеры при создании
 	window.CenterOnScreen() //размещение окна по центру экрана
-	//window.SetFullSize(true) // открытие окна в полном разрешении
 
 	// элемент навигации выходящий на Лабараторную работу №2
 	menuItemLab2 := fyne.NewMenuItem("Лабораторная работа №2", func(){
