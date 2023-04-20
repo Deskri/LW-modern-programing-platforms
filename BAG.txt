@@ -1,0 +1,3 @@
+СДЕЛАНО!!! work/FunctionLab2/func InvertedWords -- проблема, при инверсии русские символы некорректно отображены
+work/FunctionLab3/func Lab3Task7 -- не реализованы цвета в ответах
+СДЕЛАНО!!! work/FunctionLab6/func Lab6Task5 -- все также же проблемы русскими символами, некорректные значения
