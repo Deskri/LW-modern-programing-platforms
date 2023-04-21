@@ -378,6 +378,10 @@ func Lab3Task5(application fyne.App, entryTask5NumA, entryTask5NumB, entryTask5N
 		entryTask5NumA.SetText("")
 		entryTask5NumB.SetText("")
 		entryTask5NumC.SetText("")
+		// возвращает изноальную видимость полей ввода
+		entryTask5NumA.Show()
+		entryTask5NumB.Show()
+		entryTask5NumC.Hide()
 	}else if a == b && entryTask5NumC.Text == "" { // в случае, если число "a" равно "b" и число "c" пусто
 		// скрываются поля ввода для число "a" и "b"
 		entryTask5NumA.Hide()
